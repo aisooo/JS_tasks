@@ -1,0 +1,105 @@
+body {
+  padding: 2%;
+  font: 16px sans-serif;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+.container {
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+}
+/* _________ВОПРОС№1____________ */
+.item-question {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: column;
+}
+.item-title-question {
+  font-size: 25px;
+  font-weight: bold;
+  align-self: center;
+  padding: 20px;
+  background: rgb(167, 139, 139);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: aliceblue;
+}
+.item-condition {
+  font-size: 20px;
+  align-items: center;
+  padding: 50px;
+  background-color: rgb(70, 97, 97);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: aliceblue;
+}
+.item-openAnsw {
+  background-color: rgb(167, 139, 139);
+  color: aliceblue;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  text-align: center;
+}
+.item-button {
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: rgb(70, 97, 97);
+  margin-top: 25px;
+  align-self: center;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.item-btn {
+  background-color: rgb(133, 100, 100);
+  color: aliceblue;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px;
+}
+.item-openAnsw.long {
+  background-color: rgb(167, 139, 139);
+}
+.button-show {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.item-btn.long {
+  width: 100%;
+}
+.item-button-long {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  gap: 10px;
+}
+.item-title-question.small {
+  font-size: 25px;
+  font-weight: bold;
+  align-self: center;
+  padding: 20px;
+  background: rgb(167, 139, 139);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: aliceblue;
+}
+.item-btn.long {
+  width: 100%;
+}
