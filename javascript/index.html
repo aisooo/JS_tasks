@@ -149,22 +149,23 @@
             </button>
           </div>
           <hr>
-          <div class = item-question>
+          <div class = "item-question">
           <h1 class="item-title-question small">Вопрос№4.2</h1>
           <p>С помощью JS необходимо первым трем элементам задать красный цвет текста, а остальным трем - зеленый.
 
-          </div>
-          <div class="element-item" id="colorElem">Element 1</div>
-          <div class="element-item" id="colorElem">Element 2</div>
-          <div class="element-item" id="colorElem">Element 3</div>
-          <div class="element-item" id="colorElem">Element 4</div>
-          <div class="element-item" id="colorElem">Element 5</div>
-          <div class="element-item" id="colorElem">Element 6</div>
-          <button class="item-btn" id="colorElem">Изменить цвета</button>
+            <ul class="items">
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+                <li>Element 5</li>
+                <li>Element 6</li>
+            </ul>
+          <button class="item-btn colorElem" >Изменить цвета</button>
           <hr>
-          <div class = item-question>
+          <div class = "item-question">
             <h1 class="item-title-question small">Вопрос№4.3</h1>
-            <p>
+            <p class="question-item">
                 На странице есть контейнер
                 < ol id="todo-list">
                     < /ol>, необходимо с помощью цикла добавить в него пять задач (элементов < li>) с
@@ -185,7 +186,7 @@
                 <hr>
                 
                 <h1>What is Lorem Ipsum?</h1>
-                <p>Lorem Ipsum is simply dummy text of the 
+                <p class = "set-hr">Lorem Ipsum is simply dummy text of the 
                     printing and typesetting industry. Lorem 
                     Ipsum has been the industry's standard 
                     dummy text ever since the 1500s, when 
@@ -198,7 +199,7 @@
                     in the 1960s with the release of Letraset 
                     sheets containing Lorem Ipsum passages.</p>
                 <h1>Where does it come from?</h1>
-                <p>Contrary to popular belief, Lorem Ipsum 
+                <p class = "set-hr">Contrary to popular belief, Lorem Ipsum 
                     is not simply random text. It has roots in 
                     a piece of classical Latin literature from 
                     45 BC, making it over 2000 years old. The 
@@ -207,7 +208,7 @@
                     section 1.10.32. from "The Extremes of 
                     Good and Evil" by Cicero</p>
                 <h1>Why do we use it?</h1>
-                <p>It is a long established fact that a reader 
+                <p class = "set-hr">It is a long established fact that a reader 
                     will be distracted by the readable content 
                     of a page when looking at its layout. The 
                     point of using Lorem Ipsum is that it has a 
@@ -217,24 +218,24 @@
                     readable English.
 
                 </p>
-                <button class = "item-btn long">добавить hr</button>
+                <button class = "item-btn long" id = "btn-hr">добавить hr</button>
 
 
             </span>
         </div>
         <div class="item-question">
-            <span class="item-condition">
+            <span class="item-conditionb last"> 
             <h1 class="item-title-question">Вопрос№5</h1>
             
             <div id="items-last">
-                <div class="item1">Milk 1 l.<span class="span">x 2</span></div>
-                <div class="item2">Cola 1.5 l. <span class="span">x 1</span></div>
-                <div class="item3">Bread<span class="span">x 2</span></div>
-                <div class="item4">Cheese<span class="span">x 1</span></div>
-                <div class="item5">Chocolate bar<span class="span">x 3</span></div>
+                <div class="item">Milk 1 l.<span class="span">x 2</span></div>
+                <div class="item">Cola 1.5 l. <span class="span">x 1</span></div>
+                <div class="item">Bread<span class="span">x 2</span></div>
+                <div class="item">Cheese<span class="span">x 1</span></div>
+                <div class="item">Chocolate bar<span class="span">x 3</span></div>
             </div>
-            <button class = "item-btn">Попробовать</button>
-        </span>
+            <button class = "item-btn" id = "last_btns">Попробовать</button>
+        </span> 
         </div>
       </div>
     </div>
