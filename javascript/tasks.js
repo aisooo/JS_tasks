@@ -83,7 +83,7 @@ btns_numReverse.onclick = function reversedNum() {
   return alert(input.split("").reversedNum().join(""));
 };
 
-//_________ВОПРОС№2_________FACTORIAL
+
 var btns_factorials = document.getElementById("numFactorial");
 
 btns_factorials.onclick = function FactorialNum(number) {
