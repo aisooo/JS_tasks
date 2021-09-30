@@ -103,3 +103,7 @@ a {
 .item-btn.long {
   width: 100%;
 }
+.item-conditionb.last {
+  position: relative;
+  left: 250px;
+}
