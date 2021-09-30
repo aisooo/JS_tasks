@@ -16,7 +16,7 @@ var btn = document.getElementById("OpenAnswerID");
 var btns = document.getElementById("OpenMonth");
 var hide = document.getElementById("OpenAnswerID");
 
-var month = function (a) {
+btn.onclick = function () {
   listOFmonth = [
     "January",
     "February",
@@ -31,29 +31,33 @@ var month = function (a) {
     "November",
     "December",
   ];
-  return listOFmonth[a.getMonth()];
-};
-console.log(month(new Date("10/11/2009")));
-console.log(month(new Date("11/13/2014")));
-
-btn.onclick = function () {
-  "October";
-  "November";
-};
-hide.onclick = function () {
-  btns.innerHTML = "Ответ скрыт";
+  var date = prompt();
+  var date2 = prompt();
+  var firstNumdate = new Date(date);
+  var firstNumdate2 = new Date(date2);
+  for (var i = 0; i <= listOFmonth.length; i++) {
+    if (i == firstNumdate.getMonth()) {
+      var month = "";
+      month += listOFmonth[i];
+    }
+    if (i == firstNumdate2.getMonth()) {
+      var month1 = "";
+      month1 += listOFmonth[i];
+      alert('""' + month + '""' + " " + '"' + month1 + '"');
+    }
+  }
 };
 
 //_________ВОПРОС№4.2_________
 
-var colorOfelement = document.getElementsById("colorElem");
-var btns_changeColor = document.getElementsByClassName(".item-btn");
-
-btns_changeColor.onclick = function color() {
-  for (let i = 0; i < 3; i++) {
-    colorOfelement[i].style.color = "red";
+// var colorOfelement = document.getElementsById("colorElem");
+var colorOfelement = document.querySelector(".item-question .colorElem");
+var btns_changeColor = document.querySelectorAll(".item-question .items li");
+colorOfelement.onclick = function () {
+  for (var i = 0; i < 3; i++) {
+    btns_changeColor[i].style.color = "green";
   }
-  for (let index = 3; index < colorOfelement; index++) {
-    colorOfelement[index].style.color = "green";
+  for (var index = 3; index < btns_changeColor.length; index++) {
+    btns_changeColor[index].style.color = "red";
   }
 };
